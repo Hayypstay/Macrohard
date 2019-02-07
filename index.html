@@ -6,3 +6,36 @@
   
     <p> As I Welcome 2019 I still have unanswered questions!!! </p>
     <p>I have't found out who let the dogs out...where's the beef...how to get to Sesame Street...why Dora doesn't just use Google Maps...why do all flavors of fruit loops taste exactly the same, or how many licks does it takes to get to the center of a tootsie pop....why eggs are packaged in a flimsy carton, but batteries are secured in plastic that's toughas nails...what does the fox say...why "abbreviated" is such a long world; or why is there a D in 'fridge' but not in refrigerator...why lemon juice is made with artificial flavor yet dish-washing liquid is made with real lemons...why does the Alphabet Song and Twinkle Twinkle Little Star have the same tune...Why did you just try to sing those two previous songs... and just what exactly is Victoria's secret? and where is Waldo</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>HTML Dashboard</title>
+    <link rel="shortcut icon" href="{{SPLUNKWEB_URL_PREFIX}}/static/img/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/en-US/static/@f4c1eb50e0f3/css/build/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/en-US/static/@f4c1eb50e0f3/css/build/pages/dashboard-simple-bootstrap.min.css" />
+</head>
+<body class="simplexml preload locale-en">
+<!-- 
+BEGIN LAYOUT
+This section contains the layout for the dashboard. Splunk uses proprietary
+styles in <div> tags, similar to Bootstrap's grid system. 
+-->
+<a class="navSkip" href="#navSkip" tabindex="1">Screen reader users, click here to skip the navigation bar</a>
+<div class="header splunk-header">
+    <div id="placeholder-splunk-bar">
+        <a href="{{SPLUNKWEB_URL_PREFIX}}/app/launcher/home" class="brand" title="splunk > listen to your data">splunk<strong>></strong></a>
+    </div>
+    <div id="placeholder-app-bar"></div>
+</div>
+<a id="navSkip"></a>
+<div class="dashboard-body container-fluid main-section-body" data-role="main">
+    <div class="dashboard-header clearfix">
+        <h2>HTML Dashboard</h2>
+        <p class="description">A form with radio buttons, a table, a chart, and tokens</p>
+    </div>
+
+    <!-- Replace the fieldset with this row with 3 cells -->
+    <div id="row1" class="dashboard-row dashboard-row1">
+        <div class="dashboard-cell" style="width: 25%;">
